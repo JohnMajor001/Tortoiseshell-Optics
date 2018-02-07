@@ -13,6 +13,9 @@ html {
 .oneRem {
   font-size: 1rem;
 }
+.twoRem {
+  font-size: 2rem;
+}
 .hipsterImg {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   height: 30rem;
@@ -21,13 +24,14 @@ html {
   background-repeat: no-repeat;
   width: 100%;
   display: flex;
-  align-items: stretch;
 }
 
 /* Top Bar */
+
 .topContainer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 .topBarContainer {
@@ -57,4 +61,20 @@ html {
 }
 .topBarRight h4 {
   padding-right: 2rem;
+}
+
+/* White Bar */
+.whiteBar {
+  width: 55.333333333rem;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.whiteBarContent {
+  width: 50%;
+  text-align: center;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  font-weight: bold;
+  line-height: 1.2;
 }
