@@ -81,7 +81,7 @@ html {
 
 /* Middle Icons */
 .middleIcons {
-  margin-top: 3rem;
+  margin: 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,7 +90,7 @@ html {
 }
 .middleFlexItemsContainer {
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
   width: 35%;
   height: 100%;
 }
@@ -101,7 +101,9 @@ html {
   height: 8rem;
 }
 .middleFlexItems h1 {
-  padding-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+  height: 100%;
 }
 .iconImg1 {
   width: 3.5rem;
@@ -112,11 +114,15 @@ html {
   padding: 0;
   height: 50%;
 }
+.topWord {
+  padding-top: 0.5rem;
+  padding-bottom: 0;
+}
 /*
 .middleFlexText {
   display: flex;
   height: 100%;
 }*/
 .marginRight {
-  margin-right: 3rem;
+  margin-right: 6rem;
 }
